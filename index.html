@@ -2,10 +2,125 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rinterio</title>
+
+    <!-- google fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<!-- tailwind css -->
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- daisy ui -->
+
+
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- font awesome -->
+
+<script src="https://kit.fontawesome.com/e4102eafa9.js" crossorigin="anonymous"></script>
+
+<!-- custom css -->
+
+<style>
+    .bg-green{
+        background-color: #ABEF5F;
+    }
+    .bg-black{
+        background-color: #1C1C1C;
+    }
+    .bg-lightgreen{
+        background: rgba(171, 239, 95, 0.5);
+    }
+    .img{
+        margin-left: 600px;
+    }
+</style>
+
 </head>
 <body>
-    
+
+<!-- header -->
+
+<header class="mx-148">
+
+<nav >
+    <div class="navbar bg-base-100 ">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow gap-37.75">
+              <li><a>Home</a></li>
+              <li>
+                <a>Service</a>
+              </li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-2xl font-extrabold"><i class="fa-solid fa-arrow-right -rotate-45 bg-green rounded-box w-7 h-7"></i> Rinterio</a>
+        </div>
+        <div class="navbar-center hidden lg:flex ">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+            <li>
+              <a>Service</a>
+            </li>
+            <li><a>Portfolio</a></li>
+            <li><a>Blogs</a></li>
+            <li><a>Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end gap-10">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+          <a class="btn font-extrabold text-xl bg-green"> Book Consult <i class="fa-solid fa-arrow-right -rotate-45 text-white bg-black rounded-box w-7 h-7  items-center"></i></a>
+        </div>
+      </div>
+</nav>
+
+</header>
+
+<!-- main section -->
+
+<main>
+<section class="">
+<div class="img">
+<img class=" w-3/6 h-3/6"  src="images/banner.png" alt="">
+</div>
+<br>
+<div>
+<h1 class="font-extrabold text-6xl text-center">A barn house of this design has a <br>striking appearance</h1>
+<br>
+<p class="text-center mt-10">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
+<div class="text-center mt-10">
+
+    <button class="bg-lightgreen w-52 h-14 rounded-box font-bold text-xl" > View Details <i class="fa-solid fa-arrow-right -rotate-45 text-black bg-green rounded-box w-7 h-7  text-center"></i></button>
+</div>
+</div>
+</section>
+</main>
+
 </body>
 </html>
